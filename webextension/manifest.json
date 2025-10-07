@@ -2,7 +2,7 @@
 	"manifest_version": 2,
 	"name": "__MSG_extensionName__",
 	"description": "__MSG_extensionDescription__",
-	"version": "7.2.6",
+	"version": "8.0.0",
 	"default_locale": "en",
 	"applications": {
 		"gecko": {
@@ -26,6 +26,7 @@
 	},
 	"permissions": [
 		"*://meet.google.com/*",
+		"*://teams.microsoft.com/*",
 		"contextMenus",
 		"downloads",
 		"nativeMessaging",

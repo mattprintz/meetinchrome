@@ -26,7 +26,8 @@ browser.webRequest.onBeforeRequest.addListener(
 	},
 	{
 		"urls": [
-			"*://meet.google.com/*"
+			"*://meet.google.com/*",
+			"*://teams.microsoft.com/*",
 		]
 	},
 	[
